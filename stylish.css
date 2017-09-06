@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body{
+    background-color: #F2F2F2;
+}
+
+ul
+{
+    margin: 0 auto;
+    display: inline;
+    margin-top: 10px;
+}
+ul li{
+padding: 5px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+font-family: 'Roboto', sans-serif;
+cursor: pointer;
+
+
+}
+ul li:hover
+{
+    color: #87C1EB;
+   
+    
+}
+li.active{
+    color: #87C1EB;
+}
+
+ul li a:active{
+    color: #87C1EB;
+}
+#addinformation{
+    width: 65%;
+   height: 60%;
+    background-color: white;
+    margin: auto;
+    margin-top: 35px;
+    transition: opacity 0.1s ease-in;
+    
+}
+.form-group
+{
+    padding: 30px;
+}
+.redstar
+{
+    color: red;
+}
+label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+#confirmpage {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+ 
+   margin-top: 35px;
+   transition: opacity 0.1s ease-in;
+   opacity: 0; 
+   height: 0;
+   
+   
+}
+
+.confirm
+{
+background-color: white;
+width: 65%;
+position: absolute;
+margin-top: 10px;
+padding-left: 35px;
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+#listingpage{
+    opacity: 0; 
+    height: 0;
+    transition: opacity 0.1s ease-in;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: -10px;
+}
+
+#bpag {
+    
+    text-align: center;
+}
